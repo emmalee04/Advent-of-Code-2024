@@ -7,7 +7,7 @@ public class AoC3 {
   public static void main(String[] args) {
     List<String> list = new ArrayList<>();
     try {
-      Scanner sc = new Scanner(new File("input3.txt"));
+      Scanner sc = new Scanner(new File("D3/input3.txt"));
       while (sc.hasNextLine()) {
         list.add(sc.nextLine());
       }

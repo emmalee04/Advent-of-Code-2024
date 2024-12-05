@@ -1,5 +1,4 @@
 package D4;
-
 import java.util.*;
 import java.io.*;
 
@@ -8,7 +7,7 @@ public class AoC4 {
     List<char[]> gridd = new ArrayList<>();
     int n = 0;
     try {
-      Scanner sc = new Scanner(new File("input4.txt"));
+      Scanner sc = new Scanner(new File("D4/input4.txt"));
       while (sc.hasNextLine()) {
         char[] chars = sc.nextLine().toCharArray();
         n = chars.length;
